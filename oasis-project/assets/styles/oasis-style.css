@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU:wght@100..400&display=swap');
+:root{
+    --carv: #2A3D45;
+    --junq: #ECC30B;
+    --coral: #F37748;
+    --red_ind: #D56062;
+    --cord: #873D48;
+}
+.our-culinary{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ECC30B;
+    padding: 0px 50px;
+    color: #873D48;
+    min-height: 100vh;
+    height: 100%;
+}
+.our-plates{
+    background-color: #D56062;
+    height: 100vh;
+    padding: 50px 0 100px 0;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+.interative-plates{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    overflow: hidden;
+}
+.food-type{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    width: 30%;
+    font-size: 5rem;
+}
+.food-type i{
+    align-self: flex-end;
+    color: var(--cord);
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .6s ease-in-out;
+    z-index: 2;
+}
+.food-type i:hover{
+    transform: translateY(-10px);
+    color: var(--red_ind);
+    background-color: var(--cord);
+}
+.plates{
+    display: flex;
+    position: relative;
+    background-color: red;
+    z-index: 0;
+}
+.plates img{
+    position: absolute;
+    bottom: -500px;
+    left: -180px;
+    transition: 1s;
+    /* transform: rotate(-240deg); */
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(0deg ,#a34100, #F37748);
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+footer .contato{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+}
+footer .contato i{
+    font-size: 5rem;
+    color: #F37748;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.658);
+    transition: 1s;
+}
+footer .contato i:hover{
+    transform: translateY(-10px);
+    color: rgb(255, 30, 30);
+}
+footer h3{
+    font-size: 5rem;
+    color: #a34100;
+    background-color: #f58c46;
+    padding: 0px 50px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.555);
+    border-radius: 2rem;
+
+    transition: 1s;
+}
+footer .contato a .fa-arrow-up{
+    color: lightgray;
+}
+footer .contato a .fa-arrow-up:hover{
+    color: lightgreen;
+}
