@@ -1,11 +1,89 @@
 @media screen  and (max-width:768px) {
-    header ul{
-        display: flex;
-        position: absolute;
-        background-color: rgba(0, 0, 0, 0.479);
-        border-radius: 2rem 0px 0px 2rem;
-        right: 0;
-        width: 20%;
+    header{
+        flex-wrap: wrap;
         font-size: 1rem;
+    }
+    .logo-construct{
+        display: none;
+    }
+    .menu ul{
+        gap: 30px;
+    }
+    .menu li{
+        padding: 10px 0;
+    }
+    .our-call{
+        width: 60%;
+    }
+    .our-culinary{
+        gap: 50px;
+    }
+    .our-culinary img{
+        width: 40%;
+    }
+    .interative-plates{
+        justify-content: left;
+        flex-direction: column;
+    }
+    .plates img{
+        bottom: -600px;
+        left: -10px;
+    }
+}
+@media screen  and (max-width:425px){
+    header{
+        justify-content: space-between;
+        padding: 0;
+        flex-wrap: nowrap;
+    }
+    header h1{
+        display: none;
+    }
+    .logo-construct{
+        display: flex;
+    }
+    .menu ul{
+        flex-direction: row;
+        gap: 14.1px;
+        background-color: rgba(0, 0, 0, 0.651);
+    }
+    .menu li{
+        font-size: 1rem;
+        padding: 10px 0;
+    }
+    .our-call{
+        width: 100%;
+    }
+    .our-history, .our-culinary{
+        flex-direction: column-reverse;
+    }
+    .our-history p, .our-culinary p{
+        font-size: .99rem;
+        text-align: justify;
+    }
+    .our-history img{
+        width: 50%;
+    }
+    .our-culinary img{
+        margin-top: 50px;
+        width: 90%;
+    }
+    .interative-plates{
+        flex-direction: row;
+    }
+    .food-type{
+        flex-direction: column;
+    }
+    .plates img{
+        border-radius: 70%;
+        bottom: -500px;
+    }
+    footer .contato{
+        flex-wrap: wrap;
+        gap: 80px;
+        padding: 20px;
+    }
+    footer h3{
+        font-size: 2rem;
     }
 }

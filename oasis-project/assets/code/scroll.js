@@ -10,20 +10,20 @@ allMenuOptions.forEach(option =>{
         }))
         if(option.textContent === 'nossa culinária'){
             window.scroll({
-                top: window.innerHeight *2.05,
+                top: window.innerHeight + window.innerHeight,
                 left: 0,
                 behavior: 'smooth'})
         }
         if(option.textContent === 'Os melhores'){
             window.scroll({
-                top: window.innerHeight *3.05,
+                top: window.innerHeight *3,
                 left: 0,
                 behavior: 'smooth'
             })
         }
         if(option.textContent === 'contato'){
             window.scroll({
-                top: window.innerHeight *4.5,
+                top: window.innerHeight *4,
                 left: 0,
                 behavior: 'smooth'
             })
