@@ -1,6 +1,5 @@
 @media screen  and (max-width:768px) {
     header{
-        flex-wrap: wrap;
         font-size: 1rem;
     }
     .logo-construct{
@@ -26,8 +25,8 @@
         flex-direction: column;
     }
     .plates img{
-        bottom: -600px;
-        left: -10px;
+        bottom: -550px;
+        left: -100px;
     }
 }
 @media screen  and (max-width:425px){
@@ -53,6 +52,7 @@
     }
     .our-call{
         width: 100%;
+        background-color: #d560626e;
     }
     .our-history, .our-culinary{
         flex-direction: column-reverse;

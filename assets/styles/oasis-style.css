@@ -62,7 +62,7 @@
 .plates img{
     position: absolute;
     bottom: -500px;
-    left: -180px;
+    left: -220px;
     transition: 1s;
     /* transform: rotate(-240deg); */
 }
