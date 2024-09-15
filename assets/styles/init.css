@@ -17,6 +17,14 @@ body{
     height: 100vh;
     scroll-behavior: smooth;
     overflow: hidden;
+
+    background-image: url(../midias/images/pexels-picjumbo-com-55570-225228.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.wrapper{
+    overflow: hidden;
 }
 header{
     background-image: linear-gradient(#2A3D45, transparent);
@@ -89,6 +97,7 @@ section .video-bg video{
     padding: 50px;
     padding-top: 50px;
     min-height: 100vh;
+    height: 100vh;
 }
 .our-history img, .our-culinary img{
     width: 30%;
