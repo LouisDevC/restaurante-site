@@ -7,11 +7,10 @@ allButtons.forEach(button => {
             imageRoll.style.transform = 'rotate(-90deg)'
         }
         if(button.classList.contains('fa-martini-glass')){
-            imageRoll.style.transform = 'rotate(0deg)'
+            imageRoll.style.transform = 'rotate(10deg)'
         }
         if(button.classList.contains('fa-bowl-food')){
             imageRoll.style.transform = 'rotate(-240deg)'
         }
     })
 });
-
