@@ -10,9 +10,9 @@
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
-    background-color: #ECC30B;
+    background-color: #2A3D45;
     padding: 100px 50px;
-    color: #873D48;
+    color: white;
     min-height: 100vh;
     height: 100vh;
 }
@@ -26,7 +26,6 @@
     height: 100vh;
     padding: 50px 0 100px 0;
     text-align: center;
-    font-size: 2rem;
     color: white;
 }
 .interative-plates{
